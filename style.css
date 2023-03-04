@@ -5,19 +5,20 @@ body {
 /*Navbar*/
 
 .header-links {
-    color:#e5e7eb
 }
 
-.navbar {
+.navbar { background-color: #1f2937;
 
 }
 
 a {
     text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .header-logo img {
-    width: 104px;
+    width: 110px;
     height:104px;
     margin-right: auto;
 }
