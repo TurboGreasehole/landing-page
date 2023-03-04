@@ -39,12 +39,18 @@ a {
 .intro {
     display:flex;
     align-items:center;
+    justify-content: center;
     background-color: #1f2937;
-    padding:20px;
+    padding: 90px;
 
 }
 
 .text {
+    display:flex;
+    flex-basis: 400px;
+    flex-direction:column;
+    text align: left;
+    
     
 
 }
@@ -64,6 +70,15 @@ h1 {
 }
 
 .text button {
+    border-radius: 8px;
+    border: none;
+    background-color: #3882f6;
+    flex:0 1 auto;
+    width: 100px;
+    height: 30px;
+    color:#f9faf8;
+    font-weight: bold;
+    padding-bottom: 2px;
     
 }
 
