@@ -5,9 +5,17 @@ body {
 /*Navbar*/
 
 .header-links {
+   display:flex;
+  margin-left: auto;
+   gap: 8px;
+   padding: 0px 100px
+
 }
 
-.navbar { background-color: #1f2937;
+.navbar { 
+    background-color: #1f2937;
+    display:flex;
+    padding:20px;
 
 }
 
@@ -15,6 +23,9 @@ a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+    font-family: 'roboto', arial;
+    padding:10px;
+    
 }
 
 .header-logo img {
