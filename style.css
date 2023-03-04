@@ -34,3 +34,29 @@ a {
     margin-right: auto;
 }
 
+/*intro*/
+
+.intro {
+    display:flex;
+    align-items:center;
+    background-color: #1f2937;
+    padding:20px;
+
+}
+
+.text {
+    
+
+}
+
+h1 {
+    font-size
+}
+
+.intro-image img {
+    width:500px;
+    height:350px
+
+
+}
+
