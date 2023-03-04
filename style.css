@@ -1,5 +1,14 @@
 body {
+    padding:0;
+    margin: 0;
+    text-align: center;
+    font-family:'roboto', arial;
 
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
 }
 
 /*Navbar*/
@@ -8,18 +17,19 @@ body {
    display:flex;
   margin-left: auto;
    gap: 8px;
-   padding: 0px 100px
+   padding: 0px 100px 0px 0px;
 
 }
 
 .navbar { 
     background-color: #1f2937;
     display:flex;
-    padding:20px;
+    padding:20px 0px 20px 100px;
+    align-items: center;
 
 }
 
-a {
+.header-links a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
@@ -49,7 +59,8 @@ a {
     display:flex;
     flex-basis: 400px;
     flex-direction:column;
-    text align: left;
+    text-align: left;
+    margin-right: 50px;
     
     
 
@@ -60,6 +71,7 @@ h1 {
     font-size:48px;
     font-weight:bolder;
     font-family: 'roboto', arial;
+    margin: 0;
 }
 
 .text p {
