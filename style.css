@@ -153,7 +153,26 @@ h1 {
 .sign-up {
     background-color:#3882f6;
     margin: 50px 200px;
-    padding: 10px
+    padding: 10px 80px;
+    display:flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.sign-item {
+    flex:1;
+
+}
+
+.sign-text {
+    text-align: left;
+
+}
+
+.signs-text p {
+    color: #fff;
+    opacity: 0.7;
 }
 
 
