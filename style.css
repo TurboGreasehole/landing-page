@@ -186,9 +186,18 @@ h1 {
     font-size: 15px;
 }
 
-.sign-button button {
-    color:#fff
-    font
+h3 {
+    color:#fff;
+    font-family: 'roboto', arial;
+    padding: 0;
+    margin:30px 0px 0px 50px;
+}
+
+/*footer*/
+.footer{
+    background-color:#1f2937
+    color:#fff;
+    font-family: 'roboto', arial;
 }
 
 
