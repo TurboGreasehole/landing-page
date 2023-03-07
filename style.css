@@ -125,6 +125,38 @@ h1 {
     
 }
 
+/*Quote*/
+
+.quote {
+    display:flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 0 200px;
+}
+
+.quote p {
+    font-size: 36px;
+    color:#1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'roboto', arial;
+}
+
+.quote b {
+    padding-bottom:20px;
+    padding-right: 10px;
+    font-family: 'roboto', arial;
+    text-align: right;
+}
+
+/*Sign up*/
+.sign-up {
+    background-color:#3882f6;
+    margin: 50px 200px;
+    padding: 10px
+}
+
+
 
   
     
